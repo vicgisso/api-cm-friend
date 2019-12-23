@@ -1,0 +1,31 @@
+{
+  "name": "api-urls",
+  "version": "0.0.1",
+  "description": "api for a mobile app that porovide some helps for typical CM needs",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicgisso/api-urls.git"
+  },
+  "author": "Vicent Gisbert <vicent@gisbert.com> (vicentcodes.eu)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/vicgisso/api-urls/issues"
+  },
+  "homepage": "https://github.com/vicgisso/api-urls#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.8.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "nodemon": "^2.0.2"
+  }
+}
